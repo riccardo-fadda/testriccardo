@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>simple-ms</artifactId>
+	<artifactId>simple-ms-2</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -30,7 +30,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>simple-ms</finalName>
+		<finalName>simple-ms-2</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
