@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY target/simple-ms-1.jar /app/simple-ms-1.jar
 
-CMD ["java", "-jar", "simple-ms.jar"]
+CMD ["java", "-jar", "simple-ms-1.jar"]
 
 EXPOSE 8081
