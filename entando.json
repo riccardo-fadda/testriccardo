@@ -1,7 +1,12 @@
 {
     "microservices": [
         {
-            "name": "simple-ms",
+            "name": "simple-ms-1",
+            "stack": "spring-boot",
+            "healthCheckPath" : "/health"
+        },
+		{
+            "name": "simple-ms-2",
             "stack": "spring-boot",
             "healthCheckPath" : "/health"
         }
